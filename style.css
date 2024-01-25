@@ -21,9 +21,15 @@ body {
     font-weight: bold;
 }
 
+.btn-light {
+    font-size: 1.1rem;
+    margin:20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
 .description-section {
     font-size: 1.2rem;
-
 }
 /* Format and intro animations for hero sections*/
 .hero-principal h1 {
@@ -96,7 +102,6 @@ body {
     background-color:rgba(7, 7, 7, 0.8);
     min-height: 450px;
     text-align: center;
-    
 }
 
 .hero-principal {
@@ -134,6 +139,18 @@ body {
     font-size:1.5em;
     font-family: monospace;
 }
+
+.experience h2 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 30px;
+
+}
+
+.experience h2 span {
+    animation: blinking 1s linear infinite;
+}
+
 
 .experience i {
     font-size: 2.5rem;
@@ -189,13 +206,12 @@ body {
 }
 
 .recent-proyects img {
-    height: 100%;
+    height: 300px;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
     display: block;
-    transition: all 0.2s ease;
-    
+    transition: all 0.2s ease; 
 }
 
 .recent-proyects-container {
@@ -211,7 +227,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
 }
 
 .overlay p {
@@ -219,8 +234,7 @@ body {
     font-weight: bold;
     margin-bottom: 0;
     color:white;
-    font-family: monospace;
-    
+    font-family: monospace; 
 }
 .proyect {
     position: relative;
@@ -242,6 +256,70 @@ body {
     color:white;
     font-size: 60px;
     margin: 10px;
+}
+
+/*Social-section*/
+.social {
+    padding-top:40px;
+    margin-bottom: 40px; 
+}
+
+.social i {
+    font-size: 5rem;
+    color:blue;
+}
+
+.social .card:hover a{
+    animation: scale-up-center 0.4s linear;
+}
+
+.social h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.social .card {
+    padding-bottom: 40px;
+    position:relative;
+}
+
+
+.social .card p {
+    font-size:1.5em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/*Contact-section*/
+.contact {
+    padding-top:70px;
+     
+}
+.contact .badge{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.contact-textbox {
+    padding-top:70px;
+}
+
+.contact-textbox input {
+    width: 200px ;
+    height: 50px;
+}
+
+.contact-textbox .bi {
+    font-size: 1em;
+}
+
+.contact input {
+    font-family: monospace;
+    font-weight: bold;
 }
 
 /* Adaptable items (responsive) */
@@ -269,11 +347,42 @@ body {
     .experience div {
         margin-bottom: 50px;
     }
-    
+    .social .card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
     }
+}
+
+@keyframes blinking {
+    50% {
+        opacity:0
+    } 80% {
+        opacity: .6
+    }
+}
+
+@keyframes scale-up-center{ 
+    0% {
+        transform:scale(.5)
+    } 100%{
+        transform:scale(1)
+    } 
 }
