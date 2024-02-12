@@ -79,7 +79,7 @@ body {
 .navbar {
     padding: 1rem;
     background-color: rgba(7, 7, 7, 0.8);
-    position:relative;
+    position:fixed; top: 0; right:0;
     z-index: 2;
 }
 
