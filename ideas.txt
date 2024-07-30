@@ -1,0 +1,6 @@
+Diseño de portfolio: Television antigua, el diseño cuenta con las siguientes ideas:
+  -Boton redondo el cual tiene distintas posiciones para cada seccion del portfolio
+  -cada seccion ira dentro del marco de la television solo variara la zona de la pantalla, esta contara con distintos estilos en funcion de la seccion, por ejemplo el clasico gris con lineas de la television antigua, otra puede ser colorida y estilo pixel....
+  -la television tendra una musica de fondo, contaremos con botones para subir y bajar el volumen
+  -la television podra encenderse y apagarse, esto contara con la clasica animacion de television antigua donde se aprecia una especie de estrella de cuatro puntas que se hace mas grande o mas pequeña en funcion de si se apaga o se enciende.
+  -en cada seccion tendremos una especie de ruleta (como el scroll de un raton) para poder subir y bajar en cada seccion.
